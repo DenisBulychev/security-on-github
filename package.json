@@ -1,3 +1,4 @@
+
 const log = require('debug')('auth');
 
 //creates new debug instance with extended namespace
@@ -7,22 +8,4 @@ const logLogin = log.extend('login');
 log('hello'); // auth hello
 logSign('hello'); //auth:sign hello
 logLogin('hello'); //auth:login hello
-{
-  "name": "octocat-memory-game",
-  "description": "Memory game with Octocats",
-  "version": "0.0.1",
-  "dependencies": {
-    "debug": "?",
-    "ejs": "^2.5.6",
-    "hoek": "^4.0.0",
-    "npm": "^6.4.1",
-    "streaming-json-stringify": "^3.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^3.8.1"
-  },
-  "engines": {
-    "npm": "2.15.0"
-  },
-  "license": "MIT"
-}
+
